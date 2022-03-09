@@ -1,0 +1,111 @@
+header img {
+	object-fit: cover;
+	width: 60px;
+	font-family: 'Rubik' 'sans-serif';
+}
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	border-radius: 25px;
+}
+a {
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+}
+.App {
+	display: grid;
+	width: 1200px;
+	gap: 10px;
+	margin: 0 auto;
+	grid-template-areas:
+		'h h'
+		'n m';
+
+	grid-template-rows: 60px 1fr;
+	grid-template-columns: 1fr 5fr;
+}
+header {
+	grid-area: h;
+	background-color: blue;
+	padding: 10px;
+}
+nav {
+	grid-area: n;
+	padding: 10px;
+	background-color: blueviolet;
+}
+.main {
+	grid-area: m;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	flex-direction: column;
+	background-color: brown;
+}
+.main div {
+	margin-top: 10px;
+}
+.phon {
+	object-fit: cover;
+	height: 200px;
+	width: 100%;
+}
+.post {
+	display: flex;
+}
+button {
+	padding: 0 10px 0 10px;
+	border: none;
+	background: #1fa2ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#a6ffcb,
+		#12d8fa,
+		#1fa2ff
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
+	float: right;
+	margin: 30px 20px 20px 0;
+}
+.post div {
+	margin-left: 10px;
+}
+.post h1 {
+	margin-bottom: 20px;
+}
+textarea {
+	width: 97%;
+	overflow: hidden;
+	border: none;
+	resize: none;
+	padding: 10px;
+	background-color: gray;
+}
+textarea::placeholder {
+	color: black;
+	opacity: 0.5;
+}
+.newpost h1 {
+	margin-bottom: 30px;
+}
+.newpost {
+	margin-bottom: 50px;
+}
+.postn {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.postn img {
+	object-fit: cover;
+	border-radius: 50px;
+	width: 60px;
+	margin-right: 25px;
+}
+.spost {
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
