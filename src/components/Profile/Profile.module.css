@@ -1,0 +1,61 @@
+.main {
+	grid-area: m;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	flex-direction: column;
+	background-color: brown;
+}
+.main div {
+	margin-top: 10px;
+}
+.phon {
+	object-fit: cover;
+	height: 200px;
+	width: 100%;
+}
+.post {
+	display: flex;
+}
+button {
+	padding: 0 10px 0 10px;
+	border: none;
+	background: #1fa2ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#a6ffcb,
+		#12d8fa,
+		#1fa2ff
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
+	float: right;
+	margin: 30px 20px 20px 0;
+}
+.post div {
+	margin-left: 10px;
+}
+.post h1 {
+	margin-bottom: 20px;
+}
+textarea {
+	width: 97%;
+	overflow: hidden;
+	border: none;
+	resize: none;
+	padding: 10px;
+	background-color: gray;
+}
+textarea::placeholder {
+	color: black;
+	opacity: 0.5;
+}
+.newpost h1 {
+	margin-bottom: 30px;
+}
+.newpost {
+	margin-bottom: 50px;
+}
+.spost {
+	padding-left: 30px;
+	margin-bottom: 10px;
+}

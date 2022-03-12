@@ -1,21 +1,21 @@
-import './App.css'
+import s from './Nav.module.css'
 
 const Nav = () => {
 	return (
 		<nav>
-			<div>
+			<div className={s.item}>
 				<a href='#'>Profile</a>
 			</div>
-			<div>
+			<div className={s.item}>
 				<a href='#'>Messages</a>
 			</div>
-			<div>
+			<div className={s.item}>
 				<a href='#'>News</a>
 			</div>
-			<div>
+			<div className={s.item}>
 				<a href='#'>Music</a>
 			</div>
-			<div>
+			<div className={s.item}>
 				<a href='#'>Settings</a>
 			</div>
 		</nav>

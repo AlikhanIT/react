@@ -1,0 +1,10 @@
+header img {
+	object-fit: cover;
+	width: 60px;
+	font-family: 'Rubik' 'sans-serif';
+}
+header {
+	grid-area: h;
+	background-color: blue;
+	padding: 10px;
+}

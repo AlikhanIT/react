@@ -1,0 +1,14 @@
+.postn {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.postn img {
+	object-fit: cover;
+	border-radius: 50px;
+	width: 60px;
+	margin-right: 25px;
+}
+.base {
+	font-family: 'Rubik' sans-serif;
+}
